@@ -1,3 +1,5 @@
-console.log('hello');
+import { init, exit } from 'myPackage';
 
-export {};
+init({ url: '123' });
+
+exit(123);
