@@ -1,5 +1,5 @@
-import { init, exit } from 'myPackage';
+import { init, exit } from './myPackage';
 
-init({ url: '123' });
+init({ debug: true, url: '123' });
 
 exit(123);
